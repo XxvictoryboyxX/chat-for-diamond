@@ -1,0 +1,11 @@
+<meta>
+<info name="chat" type="script" version="1.0.1" author="Amir"/>
+<script src="chat_shared.lua" type="shared"/>
+<script src="chat_server.lua" type="server"/>
+<script src="chat_client.lua" type="client"/>
+<file src="index.html"/>
+<file src="styles.css"/>
+<file src="scripts.js"/>
+<export function="isChatVisible" type="client"/>
+<export function="useDefaultOutput" type="server"/>
+</meta>
